@@ -3,53 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
-
 .header {
     background-color: #0a1a23;
     text-align: center;
     padding: 25px;
     color: white;
 }
-
 .container {
     display: flex;
     justify-content: space-around;
     padding: 40px;
+	gap:20px;
 }
-
-/* Latest News Section */
 .latest-news-section {
     background-color: white;
     width: 25%;
     padding: 20px;
     border-radius: 12px;
 }
-
 .latest-news-section ul {
     margin-top: 10px;
     margin-left: 20px;
 }
-
 .latest-news-section li {
     margin-bottom: 8px;
 }
-
-/* Main Article Section */
 .main {
     background-color: white;
     width: 40%;
     padding: 20px;
     border-radius: 12px;
     text-align: center;
-	
 }
-
-/* Pictorial News Section */
 .pictorial-news-section {
     background-color: white;
     width: 25%;
@@ -57,7 +46,6 @@ body {
     border-radius: 12px;
     text-align: center;
 }
-
 .pictorial-news-section img {
     width: 100%;
     border-radius: 10px;
